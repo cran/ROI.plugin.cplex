@@ -1,0 +1,9 @@
+7fd4017113187ee2a936dc1f1e5914fb *DESCRIPTION
+a603c58a9d0ae9f0e1994e7c8e7dc48d *NAMESPACE
+b7980c092f05cd597152bb40bbcba9b8 *R/control.R
+073d906b5229f9593b5f7dce84a496fb *R/helper.R
+4fdd8fa826107adccb798ed8fc95699d *R/plugin.R
+83ecbfab395fee1ce4a1ea5ad38dcd7d *R/status_code.R
+7c1b8962f4108fdb9cc3c0ff6267ff17 *R/zzz.R
+120387d1725e33bca3315a41ee8c34d0 *tests/test_cplex.R
+a2fb047f67cc1171db94e4e822504813 *tests/test_cplex.Rout.save

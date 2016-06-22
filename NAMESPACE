@@ -1,0 +1,7 @@
+import("ROI")
+import("Rcplex")
+importFrom("methods", "getPackageName")
+importFrom("methods", "getFunction")
+importFrom("slam", "as.simple_triplet_matrix")
+importFrom("stats", "terms")
+S3method(".ROI_plugin_solution_aux", "cplex_solution")

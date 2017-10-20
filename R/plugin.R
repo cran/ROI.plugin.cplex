@@ -1,7 +1,7 @@
 ## ROI.plugin.cplex: solver interfaces
 ## Description: provides problem object <-> solver mappings
 
-solve_OP <- function( x, control ){
+solve_OP <- function( x, control = list() ){
     if(is.null(control))
        control <- list()
 
@@ -21,7 +21,7 @@ solve_OP <- function( x, control ){
     ## variable bounds
     lb <- 0
     ub <- Inf
-    if( ! is.null(bounds(x)) ){
+    if( ! is.default_bound(bounds(x)) ){
       lb <- rep(lb, n_obj)
       ub <- rep(ub, n_obj)
       lb[ bounds(x)$lower$ind ] <- bounds(x)$lower$val
